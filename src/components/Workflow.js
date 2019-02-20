@@ -38,6 +38,7 @@ export default class Workflow extends Component {
     }
 
     // Last
+    // you can clean up any running functions like timers
     componentWillUnmount() {
         console.log("componentWillUnmount");
     }
